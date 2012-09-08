@@ -1,0 +1,3 @@
+with (Enemy) {
+    pulled = false;
+}
