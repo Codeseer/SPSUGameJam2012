@@ -347,6 +347,7 @@
           <script>scripts\Button_Back_Action.gml</script>
           <script>scripts\Button_Back_Create.gml</script>
         </scripts>
+        <script>scripts\Button_Create.gml</script>
       </scripts>
       <scripts name="Slider">
         <script>scripts\Slider_Create.gml</script>
