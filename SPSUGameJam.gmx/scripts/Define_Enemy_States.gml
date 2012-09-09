@@ -1,15 +1,8 @@
 
 states[sID_charger_patrolling] = instance_create(0, 0, State_object);
-states[sID_charger_patrolling] = instance_create(0, 0, State_object);
 states[sID_charger_rushing] = instance_create(0, 0, State_object);
 states[sID_charger_recoiling] = instance_create(0, 0, State_object);
 states[sID_charger_shouting] = instance_create(0, 0, State_object);
-
-states[sID_charger_patrolling].main = Charger_State_Patrolling;
-states[sID_charger_patrolling].draw = Charger_State_Patrolling_Draw;
-states[sID_charger_patrolling].on_enter = Charger_State_Patrolling_Enter;
-states[sID_charger_patrolling].on_exit = Charger_State_Patrolling_Exit;
-states[sID_charger_patrolling].init = Charger_State_Patrolling_Init;
 
 states[sID_charger_patrolling].main = Charger_State_Patrolling;
 states[sID_charger_patrolling].draw = Charger_State_Patrolling_Draw;

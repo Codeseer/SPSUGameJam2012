@@ -51,7 +51,6 @@
   </views>
   <instances>
     <instance objName="Solid" x="32" y="832" name="inst_A12803B9" locked="0" code="" scaleX="55.7419013977051" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy_Charger" x="1456" y="816" name="inst_7ABB643F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="1760" y="736" name="inst_C4EA8028" locked="0" code="" scaleX="12" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="576" y="768" name="inst_E7EE9000" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="768" y="768" name="inst_545E9EB5" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
@@ -83,6 +82,7 @@
     <instance objName="Solid" x="6048" y="288" name="inst_B2235A10" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="5824" y="256" name="inst_0AA29017" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="7296" y="32" name="inst_EB046A36" locked="0" code="" scaleX="1" scaleY="26" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Charger" x="1456" y="816" name="inst_7ABB643F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="320" y="816" name="inst_8EED962C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="320" y="816" name="inst_BA4728D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

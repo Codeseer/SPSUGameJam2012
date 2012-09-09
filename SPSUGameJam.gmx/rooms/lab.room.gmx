@@ -50,7 +50,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Enemy_Charger" x="1456" y="816" name="inst_7ABB643F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="1760" y="736" name="inst_C4EA8028" locked="0" code="" scaleX="12" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="256" y="640" name="inst_545E9EB5" locked="0" code="" scaleX="16.5160999298096" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2144" y="832" name="inst_A1178C2F" locked="0" code="" scaleX="38" scaleY="1" colour="4294967295" rotation="0"/>
@@ -103,6 +102,7 @@
     <instance objName="Solid" x="5408" y="32" name="inst_5AD15CB6" locked="0" code="" scaleX="5" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="6304" y="192" name="inst_B5EA86F3" locked="0" code="" scaleX="6" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="5696" y="192" name="inst_7AF0C896" locked="0" code="" scaleX="19.6129035949707" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Enemy_Charger" x="1456" y="816" name="inst_7ABB643F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="3840" y="400" name="inst_8EED962C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

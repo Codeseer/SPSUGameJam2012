@@ -138,11 +138,12 @@
     <instance objName="Solid" x="1728" y="2144" name="inst_4ABC6DA0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2400" y="1920" name="inst_B23AB76A" locked="0" code="" scaleX="-4" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2528" y="2432" name="inst_EC9C7C85" locked="0" code="" scaleX="2.06451606750488" scaleY="10.3225803375244" colour="4294967295" rotation="0"/>
-    <instance objName="Semisolid" x="1120" y="2752" name="inst_F35C6CC2" locked="0" code="" scaleX="2" scaleY="0" colour="4294967295" rotation="0"/>
-    <instance objName="Semisolid" x="1120" y="2752" name="inst_EBFE6541" locked="0" code="" scaleX="12" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2400" y="2880" name="inst_BD94DD7D" locked="0" code="" scaleX="11" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2720" y="2592" name="inst_BB49D7DB" locked="0" code="" scaleX="8" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="Solid" x="2688" y="2368" name="inst_500779DE" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Solid" x="2304" y="896" name="inst_94DA5597" locked="0" code="" scaleX="7" scaleY="4" colour="4294967295" rotation="45"/>
+    <instance objName="Semisolid" x="1120" y="2752" name="inst_F35C6CC2" locked="0" code="" scaleX="2" scaleY="0" colour="4294967295" rotation="0"/>
+    <instance objName="Semisolid" x="1120" y="2752" name="inst_EBFE6541" locked="0" code="" scaleX="12" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="3232" y="1824" name="inst_7E2E8298" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="3232" y="1728" name="inst_E7EFB6CA" locked="0" code="" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="1248" y="1664" name="inst_7DC667C5" locked="0" code="" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
@@ -154,15 +155,13 @@
     <instance objName="Semisolid" x="3264" y="736" name="inst_9259A741" locked="0" code="" scaleX="2" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="3168" y="736" name="inst_7298F492" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="3008" y="800" name="inst_876829BE" locked="0" code="" scaleX="4" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="Solid" x="2304" y="896" name="inst_94DA5597" locked="0" code="" scaleX="7" scaleY="4" colour="4294967295" rotation="45"/>
     <instance objName="HUD" x="32" y="4032" name="inst_968C38E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Semisolid" x="224" y="320" name="inst_EC01BB4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy_Melee" x="576" y="1568" name="inst_744E0104" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player" x="1152" y="1648" name="inst_8EED962C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
-    <tile bgName="menu" x="7072" y="512" w="224" h="320" xo="416" yo="32" id="10002492" name="inst_B805E435" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="menu" x="32" y="512" w="224" h="320" xo="416" yo="32" id="10002493" name="inst_44200800" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="menu" x="7072" y="512" w="224" h="320" xo="416" yo="32" id="10012210" name="inst_B805E435" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="menu" x="32" y="512" w="224" h="320" xo="416" yo="32" id="10012211" name="inst_44200800" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

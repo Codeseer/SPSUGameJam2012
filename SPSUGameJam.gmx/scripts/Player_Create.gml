@@ -1,4 +1,5 @@
 instance_create(x, y, Camera);
+instance_create(x, y, HUD);
 
 hp = 10;
 hp_max = 100;

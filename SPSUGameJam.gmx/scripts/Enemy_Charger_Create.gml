@@ -11,7 +11,7 @@ sprite_rush = charger_rush_sprite;
 sprite_recoil = charger_recoil_sprite;
 sprite_shout = charger_shout_sprite;
 
-state = states[sID_charger_standing];
+state = states[sID_charger_patrolling];
 state_next = state;
 state_last = state;
 
@@ -20,4 +20,4 @@ Charger_State_Patrolling_Init();
 Charger_State_Rushing_Init();
 Charger_State_Recoiling_Init();
 
-Charger_State_Standing_Enter();
+Charger_State_Patrolling_Enter();
