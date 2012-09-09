@@ -24,13 +24,13 @@ key_btn2_alt = ord('W');
 key_btn3_alt = ord('E');
 key_btn4_alt = ord('R');
 
-power1 = states[sID_player_laser];
-power2 = states[sID_player_grenade];
-power3 = states[sID_player_shield];
+power1 = states[sID_player_fists];
+power2 = states[sID_player_pull];
+power3 = states[sID_player_lightning];
 
 for (i = 0; i < 4; i += 1) {
     melee[i] = 0;
-    range[i] = 0;
+    range[i] = 1;
     mobile[i] = 0;
 }
 
@@ -58,9 +58,9 @@ sprite_turn         = playermask_sprite;
 sprite_jump         = player_jump_sprite;
 sprite_fall         = player_fall_sprite;
 sprite_slide        = wallslide_sprite;
-sprite_recoil       = playermask_sprite;
+sprite_recoil       = player_fall_sprite;
 sprite_glide        = playermask_sprite;
-sprite_dash         = playermask_sprite;
+sprite_dash         = player_run_sprite;
 
 sprite_attack[0]    = attack0_sprite;
 sprite_attack[1]    = attack1_sprite;
@@ -78,14 +78,14 @@ sprite_aerial_sweep = aerial_sweep_sprite;
 sprite_aerial_down  = aerial_down_sprite;
 sprite_aerial_lunge = attack1_sprite;
 
-sprite_melee[0]     = playermask_sprite;
-sprite_melee[1]     = playermask_sprite;
+sprite_melee[0]     = sprite49;
+sprite_melee[1]     = sprite49;
 sprite_melee[2]     = playermask_sprite;
 sprite_melee[3]     = playermask_sprite;
 
-sprite_range[0]     = playermask_sprite;
-sprite_range[1]     = playermask_sprite;
-sprite_range[2]     = playermask_sprite;
+sprite_range[0]     = sprite49;
+sprite_range[1]     = sprite49;
+sprite_range[2]     = sprite49;
 sprite_range[3]     = playermask_sprite;
 
 animation_index = 0;

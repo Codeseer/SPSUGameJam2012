@@ -14,10 +14,10 @@
     <sound>sound\grenade_throw_sfx</sound>
     <sound>sound\grenade_explode_sfx</sound>
     <sound>sound\lightning_sfx</sound>
-    <sound>sound\sound9</sound>
-    <sound>sound\sound10</sound>
-    <sound>sound\sound11</sound>
-    <sound>sound\sound12</sound>
+    <sound>sound\lightning2_sfx</sound>
+    <sound>sound\shield_sfx</sound>
+    <sound>sound\pull_sfx</sound>
+    <sound>sound\fists_sfx</sound>
     <sound>sound\sound13</sound>
     <sound>sound\sound14</sound>
   </sounds>

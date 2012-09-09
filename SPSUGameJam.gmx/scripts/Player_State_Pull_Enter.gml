@@ -23,3 +23,5 @@ pull_duration = 15;
 
 xspd = 0;
 yspd = 0;
+
+sound_play(pull_sfx);

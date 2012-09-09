@@ -9,3 +9,4 @@ if (range[0]) {
 }
 xspd = 0;
 yspd = 0;
+sound_play(lightning_sfx);
