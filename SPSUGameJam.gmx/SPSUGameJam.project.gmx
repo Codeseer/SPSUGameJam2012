@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\solidmask_sprite</sprite>
     <sprite>sprites\semisolid_sprite</sprite>
@@ -14,9 +16,13 @@
       <sprite>sprites\player_run_sprite</sprite>
       <sprite>sprites\player_jump_sprite</sprite>
       <sprite>sprites\player_fall_sprite</sprite>
+      <sprite>sprites\player_lightning_sprite</sprite>
       <sprite>sprites\attack0_sprite</sprite>
       <sprite>sprites\attack1_sprite</sprite>
       <sprite>sprites\attack2_sprite</sprite>
+      <sprite>sprites\aerial0_sprite</sprite>
+      <sprite>sprites\aerial1_sprite</sprite>
+      <sprite>sprites\aerial2_sprite</sprite>
       <sprite>sprites\sweep_sprite</sprite>
       <sprite>sprites\sideswipe_sprite</sprite>
     </sprites>
@@ -54,6 +60,7 @@
     <sprites name="Particles">
       <sprite>sprites\particle_dust_sprite</sprite>
     </sprites>
+    <sprite>sprites\grenade_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -367,6 +374,14 @@
       <script>scripts\Particle_Dust_Create.gml</script>
       <script>scripts\Particle_Dust_Destory.gml</script>
     </scripts>
+    <scripts name="Projectiles">
+      <script>scripts\Shield_Create.gml</script>
+      <script>scripts\Shield_Step.gml</script>
+      <script>scripts\Shield_Draw.gml</script>
+      <script>scripts\Grenade_Create.gml</script>
+      <script>scripts\Grenade_Step.gml</script>
+      <script>scripts\Grenade_Draw.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\debug_font</font>
@@ -409,6 +424,8 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
+    <object>objects\Grenade</object>
+    <object>objects\Shield</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game_Setup</room>
