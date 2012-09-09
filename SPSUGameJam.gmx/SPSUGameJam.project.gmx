@@ -442,6 +442,7 @@
     <room>rooms\Game_Menu</room>
     <room>rooms\Game_Play</room>
     <room>rooms\lab</room>
+    <room>rooms\sewer</room>
     <room>rooms\cave</room>
     <room>rooms\Game_Settings</room>
     <room>rooms\Pause_Menu</room>
