@@ -4,7 +4,8 @@ globalvar world_gravity, world_friction;
 
 world_gravity = 2.5;
 world_friction = 1.6;
-
+GameData.target_x = -1;
+GameData.target_y = -1;
 global.use_joystick = false;
 global.paused = false;
 

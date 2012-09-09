@@ -99,6 +99,7 @@
       <sprite>sprites\particle_dust_sprite</sprite>
     </sprites>
     <sprite>sprites\grenade_sprite</sprite>
+    <sprite>sprites\doormask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -553,6 +554,7 @@
     <object>objects\Grenade</object>
     <object>objects\Shield</object>
     <object>objects\AttackHitbox</object>
+    <object>objects\Door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game_Setup</room>
