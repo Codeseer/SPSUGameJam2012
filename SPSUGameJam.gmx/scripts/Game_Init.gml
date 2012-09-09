@@ -17,5 +17,4 @@ if (os_type == os_windows && os_browser == browser_not_a_browser) {
 }
 
 audio_play_music(sound0, true);
-
 room_goto_next();

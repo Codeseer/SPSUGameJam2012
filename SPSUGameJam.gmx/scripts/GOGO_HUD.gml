@@ -1,11 +1,14 @@
 
 //draw the ability bars
 draw_sprite(ability_bar,0,dat_x,dat_y);
-if(power1_sprite!=-1 && power2_sprite!=-1 && power3_sprite!=-1) {
+if(power1_sprite!=-1) {
     draw_sprite(power1_sprite,0,dat_x+32,dat_y+18);
+}
+if(power2_sprite!=-1) {
     draw_sprite(power2_sprite,0,dat_x+32+21+15,dat_y+18);
+}
+if(power3_sprite!=-1) {
     draw_sprite(power3_sprite,0,dat_x+32+21+15+21+15,dat_y+18);
-    show_debug_message(string(dat_x));
 }
 
 //draw the mana/health bar

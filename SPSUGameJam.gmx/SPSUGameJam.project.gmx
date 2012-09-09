@@ -409,24 +409,37 @@
       <script>scripts\GOGO_HUD.gml</script>
       <script>scripts\Update_Abilities.gml</script>
     </scripts>
+    <scripts name="Dialog">
+      <script>scripts\Dialog_Draw.gml</script>
+      <script>scripts\Dialog_Create.gml</script>
+      <script>scripts\Dialog_Update.gml</script>
+    </scripts>
+    <scripts name="Dammage_Text">
+      <script>scripts\Damage_Text_Create.gml</script>
+      <script>scripts\Damage_Text_Draw.gml</script>
+      <script>scripts\Damage_Text_Update.gml</script>
+    </scripts>
+    <scripts name="Skill Menu">
+      <script>scripts\Attract_Button_Action.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\debug_font</font>
     <font>fonts\Dialog</font>
+    <font>fonts\Damage</font>
   </fonts>
   <objects name="objects">
-    <object>objects\HUD</object>
-    <object>objects\static</object>
-    <object>objects\State_object</object>
-    <object>objects\GameData</object>
-    <object>objects\Player</object>
-    <object>objects\Solid</object>
-    <object>objects\Semisolid</object>
     <object>objects\Camera</object>
+    <object>objects\DamageText</object>
+    <object>objects\DialogBox</object>
     <objects name="Enemies">
       <object>objects\Enemy</object>
       <object>objects\Enemy_Charger</object>
     </objects>
+    <object>objects\Game_Room_Menu_Updater</object>
+    <object>objects\GameData</object>
+    <object>objects\Grenade</object>
+    <object>objects\HUD</object>
     <objects name="Menu">
       <objects name="Buttons">
         <object>objects\Button</object>
@@ -453,9 +466,23 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
-    <object>objects\Game_Room_Menu_Updater</object>
-    <object>objects\Grenade</object>
+    <object>objects\Player</object>
+    <object>objects\Semisolid</object>
     <object>objects\Shield</object>
+    <object>objects\Solid</object>
+    <object>objects\State_object</object>
+    <object>objects\static</object>
+    <objects name="Skill_Menu">
+      <object>objects\Attract_Button</object>
+      <object>objects\Fist_Button</object>
+      <object>objects\Laser_Button</object>
+      <object>objects\Lightning_Button</object>
+      <object>objects\Repel_Button</object>
+      <object>objects\Shield_Button</object>
+      <object>objects\Speedy_Button</object>
+      <object>objects\Skill_Menu_Selector</object>
+      <object>objects\Grenade_Button</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game_Setup</room>

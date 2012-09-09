@@ -1,5 +1,4 @@
 script_execute(state.main);
-
 if (global.use_joystick) {
     joy_jump_last = joystick_check_button(1, joy_jump);
     joy_btn1_last = joystick_check_button(1, joy_btn1);
