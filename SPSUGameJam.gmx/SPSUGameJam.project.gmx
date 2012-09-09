@@ -433,6 +433,7 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
+    <object>objects\Game_Room_Menu_Updater</object>
     <object>objects\Grenade</object>
     <object>objects\Shield</object>
   </objects>
