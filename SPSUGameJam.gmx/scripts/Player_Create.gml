@@ -1,5 +1,8 @@
 instance_create(x, y, Camera);
 
+hp = 10;
+hp_max = 100;
+mana = 90;
 key_left = vk_left;     key_left_alt = vk_numpad4;
 key_right = vk_right;   key_right_alt = vk_numpad6;
 key_up = vk_up;         key_up_alt = vk_numpad8;
@@ -25,7 +28,7 @@ key_btn3_alt = ord('E');
 key_btn4_alt = ord('R');
 
 power1 = states[sID_player_laser];
-power2 = states[sID_player_grenade];
+power2 = states[sID_player_lightning];
 power3 = states[sID_player_shield];
 
 for (i = 0; i < 4; i += 1) {
