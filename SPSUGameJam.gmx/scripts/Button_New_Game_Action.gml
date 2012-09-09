@@ -1,1 +1,1 @@
-room_goto(Game_Play);
+room_goto(cave);
