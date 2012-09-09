@@ -12,7 +12,8 @@ if (place_meeting(x, y + 1, Solid)) {
 }
 
 if (Get_Input_Pressed(key_jump)) {
-    xspd = -slide_direction * lateral_cap;
+    lateral_max = -slide_direction * lateral_cap;
+    xspd = lateral_max;
     Change_State(states[sID_player_jumping]);
     exit;
 }

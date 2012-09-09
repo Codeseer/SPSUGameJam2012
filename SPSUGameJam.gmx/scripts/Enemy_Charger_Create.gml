@@ -9,6 +9,7 @@ sprite_stand = charger_stand_sprite;
 sprite_patrol = charger_patrol_sprite;
 sprite_rush = charger_rush_sprite;
 sprite_recoil = charger_recoil_sprite;
+sprite_shout = charger_shout_sprite;
 
 state = states[sID_charger_standing];
 state_next = state;

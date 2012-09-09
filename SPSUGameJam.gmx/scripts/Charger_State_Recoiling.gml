@@ -1,4 +1,4 @@
-
+Animation_Update();
 if (recoil_timer > recoil_duration) {
     Change_State(states[sID_charger_patrolling]);
     exit;

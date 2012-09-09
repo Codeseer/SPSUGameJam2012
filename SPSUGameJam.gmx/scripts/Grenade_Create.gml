@@ -10,3 +10,5 @@ with (Player) {
 }
 
 life = 20;
+
+sound_play(grenade_throw_sfx);

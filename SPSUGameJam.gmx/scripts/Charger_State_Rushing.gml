@@ -1,4 +1,4 @@
-
+Animation_Update();
 
 if (rush_timer > rush_duration) {
     Change_State(states[sID_charger_recoiling]);
@@ -9,3 +9,7 @@ if (rush_timer > rush_duration) {
 rush_timer += 1;
 
 Move_X_Ground();
+
+if (xspd == 0) {
+    rush_timer += 5;
+}

@@ -5,7 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
+    <sound>sound\bgm1</sound>
+    <sound>sound\bgm2</sound>
+    <sound>sound\jump_sfx</sound>
+    <sound>sound\attack0_sfx</sound>
+    <sound>sound\attack1_sfx</sound>
+    <sound>sound\attack2_sfx</sound>
+    <sound>sound\grenade_throw_sfx</sound>
+    <sound>sound\grenade_explode_sfx</sound>
+    <sound>sound\lightning_sfx</sound>
+    <sound>sound\sound9</sound>
+    <sound>sound\sound10</sound>
+    <sound>sound\sound11</sound>
+    <sound>sound\sound12</sound>
+    <sound>sound\sound13</sound>
+    <sound>sound\sound14</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\solidmask_sprite</sprite>
@@ -24,13 +38,37 @@
       <sprite>sprites\aerial1_sprite</sprite>
       <sprite>sprites\aerial2_sprite</sprite>
       <sprite>sprites\sweep_sprite</sprite>
+      <sprite>sprites\aerial_sweep_sprite</sprite>
+      <sprite>sprites\aerial_down_sprite</sprite>
+      <sprite>sprites\wallslide_sprite</sprite>
       <sprite>sprites\sideswipe_sprite</sprite>
+      <sprite>sprites\sprite49</sprite>
     </sprites>
     <sprites name="Enemy">
-      <sprite>sprites\charger_stand_sprite</sprite>
-      <sprite>sprites\charger_patrol_sprite</sprite>
-      <sprite>sprites\charger_recoil_sprite</sprite>
-      <sprite>sprites\charger_rush_sprite</sprite>
+      <sprites name="Charger">
+        <sprite>sprites\charger_stand_sprite</sprite>
+        <sprite>sprites\charger_patrol_sprite</sprite>
+        <sprite>sprites\charger_recoil_sprite</sprite>
+        <sprite>sprites\charger_rush_sprite</sprite>
+        <sprite>sprites\charger_shout_sprite</sprite>
+      </sprites>
+      <sprites name="Crawler">
+        <sprite>sprites\crawler_stand_sprite</sprite>
+        <sprite>sprites\crawler_patrol_sprite</sprite>
+        <sprite>sprites\crawler_rush_sprite</sprite>
+        <sprite>sprites\crawler_fire_sprite</sprite>
+        <sprite>sprites\crawler_recoil_sprite</sprite>
+      </sprites>
+      <sprites name="Melee">
+        <sprite>sprites\melee_walk_sprite</sprite>
+        <sprite>sprites\melee_attack_sprite</sprite>
+        <sprite>sprites\melee_fail_sprite</sprite>
+        <sprite>sprites\melee_recoil_sprite</sprite>
+        <sprite>sprites\melee_flee_sprite</sprite>
+      </sprites>
+      <sprites name="ranged">
+        <sprite>sprites\sprite54</sprite>
+      </sprites>
     </sprites>
     <sprites name="Menu">
       <sprites name="Buttons">
@@ -350,6 +388,82 @@
           <script>scripts\Charger_State_Standing_Exit.gml</script>
           <script>scripts\Charger_State_Standing_Init.gml</script>
         </scripts>
+        <scripts name="Shouting">
+          <script>scripts\Charger_State_Shouting.gml</script>
+          <script>scripts\Charger_State_Shouting_Draw.gml</script>
+          <script>scripts\Charger_State_Shouting_Enter.gml</script>
+          <script>scripts\Charger_State_Shouting_Exit.gml</script>
+          <script>scripts\Charger_State_Shouting_Init.gml</script>
+        </scripts>
+      </scripts>
+      <scripts name="Crawler">
+        <script>scripts\Enemy_Crawler_Create.gml</script>
+        <scripts name="Patrolling">
+          <script>scripts\Crawler_State_Patrolling.gml</script>
+          <script>scripts\Crawler_State_Patrolling_Draw.gml</script>
+          <script>scripts\Crawler_State_Patrolling_Enter.gml</script>
+          <script>scripts\Crawler_State_Patrolling_Exit.gml</script>
+          <script>scripts\Crawler_State_Patrolling_Init.gml</script>
+        </scripts>
+        <scripts name="Rushing">
+          <script>scripts\Crawler_State_Rushing.gml</script>
+          <script>scripts\Crawler_State_Rushing_Draw.gml</script>
+          <script>scripts\Crawler_State_Rushing_Enter.gml</script>
+          <script>scripts\Crawler_State_Rushing_Exit.gml</script>
+          <script>scripts\Crawler_State_Rushing_Init.gml</script>
+        </scripts>
+        <scripts name="Recoiling">
+          <script>scripts\Crawler_State_Recoiling.gml</script>
+          <script>scripts\Crawler_State_Recoiling_Draw.gml</script>
+          <script>scripts\Crawler_State_Recoiling_Enter.gml</script>
+          <script>scripts\Crawler_State_Recoiling_Exit.gml</script>
+          <script>scripts\Crawler_State_Recoiling_Init.gml</script>
+        </scripts>
+      </scripts>
+      <scripts name="Melee">
+        <script>scripts\Enemy_Melee_Create.gml</script>
+        <scripts name="Patrolling">
+          <script>scripts\Melee_State_Patrolling.gml</script>
+          <script>scripts\Melee_State_Patrolling_Draw.gml</script>
+          <script>scripts\Melee_State_Patrolling_Enter.gml</script>
+          <script>scripts\Melee_State_Patrolling_Exit.gml</script>
+          <script>scripts\Melee_State_Patrolling_Init.gml</script>
+        </scripts>
+        <scripts name="Rushing">
+          <script>scripts\Melee_State_Rushing.gml</script>
+          <script>scripts\Melee_State_Rushing_Draw.gml</script>
+          <script>scripts\Melee_State_Rushing_Enter.gml</script>
+          <script>scripts\Melee_State_Rushing_Exit.gml</script>
+          <script>scripts\Melee_State_Rushing_Init.gml</script>
+        </scripts>
+        <scripts name="Attacking">
+          <script>scripts\Melee_State_Attacking.gml</script>
+          <script>scripts\Melee_State_Attacking_Draw.gml</script>
+          <script>scripts\Melee_State_Attacking_Enter.gml</script>
+          <script>scripts\Melee_State_Attacking_Exit.gml</script>
+          <script>scripts\Melee_State_Attacking_Init.gml</script>
+        </scripts>
+        <scripts name="Failing">
+          <script>scripts\Melee_State_Failing.gml</script>
+          <script>scripts\Melee_State_Failing_Draw.gml</script>
+          <script>scripts\Melee_State_Failing_Enter.gml</script>
+          <script>scripts\Melee_State_Failing_Exit.gml</script>
+          <script>scripts\Melee_State_Failing_Init.gml</script>
+        </scripts>
+        <scripts name="Recoiling">
+          <script>scripts\Melee_State_Recoiling.gml</script>
+          <script>scripts\Melee_State_Recoiling_Draw.gml</script>
+          <script>scripts\Melee_State_Recoiling_Enter.gml</script>
+          <script>scripts\Melee_State_Recoiling_Exit.gml</script>
+          <script>scripts\Melee_State_Recoiling_Init.gml</script>
+        </scripts>
+        <scripts name="Fleeing">
+          <script>scripts\Melee_State_Fleeing.gml</script>
+          <script>scripts\Melee_State_Fleeing_Draw.gml</script>
+          <script>scripts\Melee_State_Fleeing_Enter.gml</script>
+          <script>scripts\Melee_State_Fleeing_Exit.gml</script>
+          <script>scripts\Melee_State_Fleeing_Init.gml</script>
+        </scripts>
       </scripts>
     </scripts>
     <scripts name="Menu">
@@ -429,12 +543,20 @@
     <font>fonts\Damage</font>
   </fonts>
   <objects name="objects">
+    <object>objects\static</object>
+    <object>objects\State_object</object>
+    <object>objects\GameData</object>
+    <object>objects\Player</object>
+    <object>objects\Solid</object>
+    <object>objects\Semisolid</object>
     <object>objects\Camera</object>
     <object>objects\DamageText</object>
     <object>objects\DialogBox</object>
     <objects name="Enemies">
       <object>objects\Enemy</object>
       <object>objects\Enemy_Charger</object>
+      <object>objects\Enemy_Crawler</object>
+      <object>objects\Enemy_Melee</object>
     </objects>
     <object>objects\Game_Room_Menu_Updater</object>
     <object>objects\GameData</object>
@@ -466,12 +588,12 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
-    <object>objects\Player</object>
-    <object>objects\Semisolid</object>
+    <object>objects\Game_Room_Menu_Updater</object>
+    <object>objects\Grenade</object>
     <object>objects\Shield</object>
     <object>objects\Solid</object>
     <object>objects\State_object</object>
-    <object>objects\static</object>
+    <object>objects\AttackHitbox</object>
     <objects name="Skill_Menu">
       <object>objects\Attract_Button</object>
       <object>objects\Fist_Button</object>

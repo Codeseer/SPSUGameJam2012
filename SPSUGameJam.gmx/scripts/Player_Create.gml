@@ -60,7 +60,7 @@ sprite_run          = player_run_sprite;
 sprite_turn         = playermask_sprite;
 sprite_jump         = player_jump_sprite;
 sprite_fall         = player_fall_sprite;
-sprite_slide        = playermask_sprite;
+sprite_slide        = wallslide_sprite;
 sprite_recoil       = playermask_sprite;
 sprite_glide        = playermask_sprite;
 sprite_dash         = playermask_sprite;
@@ -77,8 +77,8 @@ sprite_attack_lunge = attack1_sprite;
 sprite_attack_sweep = sweep_sprite;
 sprite_sideswipe    = sideswipe_sprite;
 
-sprite_aerial_sweep = sweep_sprite;
-sprite_aerial_down  = sweep_sprite;
+sprite_aerial_sweep = aerial_sweep_sprite;
+sprite_aerial_down  = aerial_down_sprite;
 sprite_aerial_lunge = attack1_sprite;
 
 sprite_melee[0]     = playermask_sprite;
