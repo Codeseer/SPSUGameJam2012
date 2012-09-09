@@ -35,7 +35,7 @@
         <sprite>sprites\charger_stand_sprite</sprite>
         <sprite>sprites\charger_patrol_sprite</sprite>
         <sprite>sprites\charger_recoil_sprite</sprite>
-        <sprite>sprites\charger_rush_spritee</sprite>
+        <sprite>sprites\charger_rush_sprite</sprite>
         <sprite>sprites\charger_shout_sprite</sprite>
       </sprites>
       <sprites name="Crawler">
@@ -44,6 +44,15 @@
         <sprite>sprites\crawler_rush_sprite</sprite>
         <sprite>sprites\crawler_fire_sprite</sprite>
         <sprite>sprites\crawler_recoil_sprite</sprite>
+      </sprites>
+      <sprites name="Melee">
+        <sprite>sprites\melee_walk_sprite</sprite>
+        <sprite>sprites\melee_attack_sprite</sprite>
+        <sprite>sprites\melee_fail_sprite</sprite>
+        <sprite>sprites\melee_flee_sprite</sprite>
+      </sprites>
+      <sprites name="ranged">
+        <sprite>sprites\sprite54</sprite>
       </sprites>
     </sprites>
     <sprites name="Menu">

@@ -3,3 +3,7 @@ xspd = lateral_max;
 
 rush_duration = 60;
 rush_timer = 0;
+
+animation_index = 0;
+animation_speed = 1;
+animation_length = sprite_get_number(sprite_rush);

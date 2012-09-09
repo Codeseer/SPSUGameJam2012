@@ -1,4 +1,4 @@
-
+Animation_Update();
 
 if (rush_timer > rush_duration) {
     Change_State(states[sID_charger_recoiling]);
