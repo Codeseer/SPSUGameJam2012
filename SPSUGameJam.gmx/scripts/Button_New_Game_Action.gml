@@ -1,1 +1,1 @@
-room_goto(sewer);
+room_goto(gobland);
