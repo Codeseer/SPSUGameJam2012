@@ -14,10 +14,10 @@
     <sound>sound\grenade_throw_sfx</sound>
     <sound>sound\grenade_explode_sfx</sound>
     <sound>sound\lightning_sfx</sound>
-    <sound>sound\sound9</sound>
-    <sound>sound\sound10</sound>
-    <sound>sound\sound11</sound>
-    <sound>sound\sound12</sound>
+    <sound>sound\lightning2_sfx</sound>
+    <sound>sound\shield_sfx</sound>
+    <sound>sound\pull_sfx</sound>
+    <sound>sound\fists_sfx</sound>
     <sound>sound\sound13</sound>
     <sound>sound\sound14</sound>
   </sounds>
@@ -99,6 +99,7 @@
       <sprite>sprites\particle_dust_sprite</sprite>
     </sprites>
     <sprite>sprites\grenade_sprite</sprite>
+    <sprite>sprites\doormask</sprite>
     <sprites name="HUD">
       <sprite>sprites\ability_bar</sprite>
       <sprite>sprites\stat_holder</sprite>
@@ -558,7 +559,6 @@
       <object>objects\Enemy_Crawler</object>
       <object>objects\Enemy_Melee</object>
     </objects>
-    <object>objects\Game_Room_Menu_Updater</object>
     <object>objects\HUD</object>
     <objects name="Menu">
       <objects name="Buttons">
@@ -586,9 +586,11 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
+    <object>objects\Game_Room_Menu_Updater</object>
     <object>objects\Grenade</object>
     <object>objects\Shield</object>
     <object>objects\AttackHitbox</object>
+    <object>objects\Door</object>
     <objects name="Skill_Menu">
       <object>objects\Attract_Button</object>
       <object>objects\Fist_Button</object>

@@ -1,6 +1,7 @@
 if (lightning_timer > lightning_duration / 8) {
     Camera.x += random(10) - 5;
     Camera.y += random(10) - 5;
+    sound_play(lightning2_sfx);
 }
 if (lightning_timer > lightning_duration) {
     Change_State(states[sID_player_falling]);
