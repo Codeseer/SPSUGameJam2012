@@ -267,6 +267,13 @@
             <script>scripts\Player_State_Dashing_Exit.gml</script>
             <script>scripts\Player_State_Dashing_Init.gml</script>
           </scripts>
+          <scripts name="Shield">
+            <script>scripts\Player_State_Shield.gml</script>
+            <script>scripts\Player_State_Shield_Draw.gml</script>
+            <script>scripts\Player_State_Shield_Enter.gml</script>
+            <script>scripts\Player_State_Shield_Exit.gml</script>
+            <script>scripts\Player_State_Shield_Init.gml</script>
+          </scripts>
         </scripts>
       </scripts>
     </scripts>

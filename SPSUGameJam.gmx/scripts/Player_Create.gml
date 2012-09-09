@@ -26,11 +26,11 @@ key_btn4_alt = ord('R');
 
 power1 = states[sID_player_laser];
 power2 = states[sID_player_grenade];
-power3 = states[sID_player_lightning];
+power3 = states[sID_player_shield];
 
 for (i = 0; i < 4; i += 1) {
-    melee[i] = 1;
-    range[i] = 1;
+    melee[i] = 0;
+    range[i] = 0;
     mobile[i] = 0;
 }
 

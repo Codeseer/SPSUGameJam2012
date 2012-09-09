@@ -14,6 +14,10 @@ if (place_meeting(x, y, Enemy)) {
 x = Player.x;
 y = Player.y - 32;
 life -= 1;
-if (life == 0) {
+if (life < 0) {
     instance_destroy();
+}
+
+if (size < max_size) {
+    size += 8;
 }
