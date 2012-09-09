@@ -5,3 +5,9 @@ animation_index = 0;
 slash_next = false;
 
 yspd = -world_gravity * animation_length / 4;
+
+var a;
+a = instance_create(x, y, AttackHitbox);
+a.sprite_index = sprite_aerial[1];
+
+sound_play(choose(attack0_sfx, attack1_sfx, attack2_sfx));

@@ -30,7 +30,20 @@ sID_player_shield,
 sID_charger_standing,
 sID_charger_patrolling,
 sID_charger_rushing,
-sID_charger_recoiling;
+sID_charger_recoiling,
+sID_charger_shouting,
+
+sID_crawler_patrolling,
+sID_crawler_rushing,
+sID_crawler_recoiling,
+sID_crawler_firing,
+
+sID_melee_patrolling,
+sID_melee_rushing,
+sID_melee_attacking,
+sID_melee_failing,
+sID_melee_recoiling,
+sID_melee_fleeing;
 
 
 sID_player_standing = 0;
@@ -65,14 +78,19 @@ sID_charger_standing = 27;
 sID_charger_patrolling = 28;
 sID_charger_rushing = 29;
 sID_charger_recoiling = 30;
+sID_charger_shouting = 31;
 
-sID_troll_standing = 30;
-sID_troll_patrolling = 31;
-sID_troll_rushing = 32;
+sID_crawler_patrolling = 32;
+sID_crawler_rushing = 33;
+sID_crawler_recoiling = 34;
+sID_crawler_firing = 35;
 
-sID_troll_standing = 30;
-sID_troll_patrolling = 31;
-sID_troll_rushing = 32;
+sID_melee_patrolling = 36;
+sID_melee_rushing = 37;
+sID_melee_attacking = 38;
+sID_melee_failing = 39;
+sID_melee_recoiling = 40;
+sID_melee_fleeing = 41;
 
 Define_Player_States();
 Define_Enemy_States();

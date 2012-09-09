@@ -4,4 +4,4 @@ if (standing_timer > standing_duration) {
     exit;
 }
 
-standing_timer += 1;
+standing_timer += 100;

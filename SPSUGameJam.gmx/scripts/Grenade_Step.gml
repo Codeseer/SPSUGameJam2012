@@ -3,6 +3,7 @@ yspd += world_gravity;
 with (Player) {
     if (Get_Input_Released(other.key)) {
         other.held = false;
+        sound_play(grenade_explode_sfx);
     }
 }
 
