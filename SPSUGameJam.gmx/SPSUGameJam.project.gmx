@@ -286,6 +286,7 @@
         <script>scripts\Get_Input_Joypad_Pressed.gml</script>
         <script>scripts\Get_Input_Joypad_Released.gml</script>
       </scripts>
+      <script>scripts\Check_Game_Menu_Keys.gml</script>
     </scripts>
     <scripts name="Enemy">
       <script>scripts\Enemy_Create.gml</script>
@@ -370,6 +371,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\debug_font</font>
+    <font>fonts\Dialog</font>
   </fonts>
   <objects name="objects">
     <object>objects\static</object>
@@ -409,6 +411,7 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
+    <object>objects\Game_Room_Menu_Updater</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game_Setup</room>
@@ -418,6 +421,7 @@
     <room>rooms\cave</room>
     <room>rooms\Game_Settings</room>
     <room>rooms\Pause_Menu</room>
+    <room>rooms\Skill_Menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -64,5 +64,9 @@ sID_charger_patrolling = 27;
 sID_charger_rushing = 28;
 sID_charger_recoiling = 29;
 
+sID_troll_standing = 30;
+sID_troll_patrolling = 31;
+sID_troll_rushing = 32;
+
 Define_Player_States();
 Define_Enemy_States();
