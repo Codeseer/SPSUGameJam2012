@@ -116,10 +116,12 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\City1</background>
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\menu</background>
+    <background>background\background5</background>
+    <background>background\Sewer</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -608,10 +610,15 @@
     <room>rooms\Game_Menu</room>
     <room>rooms\Game_Play</room>
     <room>rooms\lab</room>
+    <room>rooms\miniland1</room>
+    <room>rooms\miniland2</room>
+    <room>rooms\gobland</room>
+    <room>rooms\sewer</room>
     <room>rooms\cave</room>
     <room>rooms\Game_Settings</room>
     <room>rooms\Pause_Menu</room>
     <room>rooms\Skill_Menu</room>
+    <room>rooms\room10</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
