@@ -25,12 +25,12 @@ key_btn3_alt = ord('E');
 key_btn4_alt = ord('R');
 
 power1 = states[sID_player_laser];
-power2 = states[sID_player_fists];
-power3 = states[sID_player_lightning];
+power2 = states[sID_player_grenade];
+power3 = states[sID_player_shield];
 
 for (i = 0; i < 4; i += 1) {
-    melee[i] = 1;
-    range[i] = 1;
+    melee[i] = 0;
+    range[i] = 0;
     mobile[i] = 0;
 }
 
@@ -66,9 +66,9 @@ sprite_attack[0]    = attack0_sprite;
 sprite_attack[1]    = attack1_sprite;
 sprite_attack[2]    = attack2_sprite;
 
-sprite_aerial[0]    = attack0_sprite;
-sprite_aerial[1]    = attack1_sprite;
-sprite_aerial[2]    = attack2_sprite;
+sprite_aerial[0]    = aerial0_sprite;
+sprite_aerial[1]    = aerial1_sprite;
+sprite_aerial[2]    = aerial2_sprite;
 
 sprite_attack_lunge = attack1_sprite;
 sprite_attack_sweep = sweep_sprite;

@@ -4,6 +4,6 @@ patrol_timer = 0;
 
 patrol_direction = -1 + 2 * (random(1) && 1);
 
-animation_speed = .3;
+animation_speed = 1;
 animation_lenght = sprite_get_number(sprite_patrol);
 animation_index = 0;

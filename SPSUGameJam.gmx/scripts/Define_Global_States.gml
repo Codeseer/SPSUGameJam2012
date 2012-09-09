@@ -25,6 +25,7 @@ sID_player_fists,
 sID_player_lightning,
 sID_player_laser,
 sID_player_grenade,
+sID_player_shield,
 
 sID_charger_standing,
 sID_charger_patrolling,
@@ -58,11 +59,12 @@ sID_player_fists = 22;
 sID_player_lightning = 23;
 sID_player_laser = 24;
 sID_player_grenade = 25;
+sID_player_shield = 26;
 
-sID_charger_standing = 26;
-sID_charger_patrolling = 27;
-sID_charger_rushing = 28;
-sID_charger_recoiling = 29;
+sID_charger_standing = 27;
+sID_charger_patrolling = 28;
+sID_charger_rushing = 29;
+sID_charger_recoiling = 30;
 
 sID_troll_standing = 30;
 sID_troll_patrolling = 31;

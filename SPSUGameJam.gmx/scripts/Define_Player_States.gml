@@ -26,6 +26,7 @@ states[sID_player_fists] = instance_create(0, 0, State_object);
 states[sID_player_lightning] = instance_create(0, 0, State_object);
 states[sID_player_laser] = instance_create(0, 0, State_object);
 states[sID_player_grenade] = instance_create(0, 0, State_object);
+states[sID_player_shield] = instance_create(0, 0, State_object);
 
 
 states[sID_player_standing].main = Player_State_Standing;
@@ -183,3 +184,9 @@ states[sID_player_grenade].draw = Player_State_Grenade_Draw;
 states[sID_player_grenade].on_enter = Player_State_Grenade_Enter;
 states[sID_player_grenade].on_exit = Player_State_Grenade_Exit;
 states[sID_player_grenade].init = Player_State_Grenade_Init;
+
+states[sID_player_shield].main = Player_State_Shield;
+states[sID_player_shield].draw = Player_State_Shield_Draw;
+states[sID_player_shield].on_enter = Player_State_Shield_Enter;
+states[sID_player_shield].on_exit = Player_State_Shield_Exit;
+states[sID_player_shield].init = Player_State_Shield_Init;
