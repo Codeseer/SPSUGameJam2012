@@ -559,8 +559,6 @@
       <object>objects\Enemy_Melee</object>
     </objects>
     <object>objects\Game_Room_Menu_Updater</object>
-    <object>objects\GameData</object>
-    <object>objects\Grenade</object>
     <object>objects\HUD</object>
     <objects name="Menu">
       <objects name="Buttons">
@@ -588,11 +586,8 @@
     <objects name="Particles">
       <object>objects\Dust</object>
     </objects>
-    <object>objects\Game_Room_Menu_Updater</object>
     <object>objects\Grenade</object>
     <object>objects\Shield</object>
-    <object>objects\Solid</object>
-    <object>objects\State_object</object>
     <object>objects\AttackHitbox</object>
     <objects name="Skill_Menu">
       <object>objects\Attract_Button</object>
